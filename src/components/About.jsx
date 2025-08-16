@@ -1,5 +1,5 @@
 import React from "react";
-import aboutImg from "./src/img/about.jpg";
+import aboutImg from "../img/about.jpg";
 
 export default function About() {
   return (
@@ -25,4 +25,5 @@ export default function About() {
     </section>
   );
 }
+
 
