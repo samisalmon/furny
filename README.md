@@ -1,12 +1,46 @@
-# React + Vite
+# [Furny Furniture React Website](https://furny-dggj.vercel.app/)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive furniture website built with React and Tailwind CSS.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Header**: Responsive navigation bar with menu for mobile.
+- **Hero**: Eye-catching hero section with headline and image.
+- **About**: Section describing the Furny brand.
+- **Products**: Grid showcasing four furniture products.
+- **Contact**: Contact info, email link, and a stylish footer.
 
-## Expanding the ESLint configuration
+## File Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+src/
+  components/
+    Header.jsx
+    Hero.jsx
+    About.jsx
+    Products.jsx
+    Contact.jsx
+  img/
+    hero.jpg
+    about.jpg
+    s1.jpg
+    s2.jpg
+    s3.jpg
+    s4.jpg
+  App.jsx
+```
+
+## Usage
+
+1. Clone the repository.
+2. Add your images to the `src/img/` folder.
+3. Run `npm install` and `npm start` to launch the app.
+
+## Customization
+
+- Edit text and images in each component file under `src/components/`.
+- Update styles using Tailwind CSS classes.
+
+## License
+
+MIT
