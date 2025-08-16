@@ -1,5 +1,5 @@
 import React from "react";
-import heroImg from "./src/img/hero.jpg";
+import heroImg from "../img/hero.jpg";
 
 export default function Hero() {
   return (
@@ -26,4 +26,5 @@ export default function Hero() {
     </section>
   );
 }
+
 
