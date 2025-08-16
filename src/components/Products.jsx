@@ -1,8 +1,8 @@
 import React from "react";
-import s1 from "./img/s1.jpg";
-import s2 from "./img/s2.jpg";
-import s3 from "./img/s3.jpg";
-import s4 from "./img/s4.jpg";
+import s1 from "./src/img/s1.jpg";
+import s2 from "./src/img/s2.jpg";
+import s3 from "./src/img/s3.jpg";
+import s4 from "./src/img/s4.jpg";
 
 export default function Products() {
   return (
@@ -45,3 +45,4 @@ export default function Products() {
     </section>
   );
 }
+
